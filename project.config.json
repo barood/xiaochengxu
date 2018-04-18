@@ -1,0 +1,12 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wxb8224cd2db31ceb1",
+	"projectname": "duijuzi%20demo",
+	"condition": {}
+}
