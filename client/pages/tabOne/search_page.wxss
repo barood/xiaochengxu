@@ -1,0 +1,19 @@
+/* pages/tabOne/search_page.wxss */
+.banner2{
+  width: 100%;
+  height: 300rpx;
+  margin-bottom: 76rpx;
+}
+.imgbanner{
+  width: 100%;
+  height: 300rpx;
+}
+.banner_source{
+  color: #000;
+  font-size: 26rpx;
+  position: absolute;
+   top: 200rpx;
+   bottom: 0rpx;
+   left:480rpx;
+   right: 0rpx;
+}

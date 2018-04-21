@@ -12,12 +12,10 @@ Page({
     },
 
     // 用户登录示例
-    login: function() {
+    landing: function() {
         if (this.data.logged) return
-
         util.showBusy('正在登录')
         var that = this
-
         // 调用登录接口
         qcloud.login({
             success(result) {

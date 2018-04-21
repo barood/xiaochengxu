@@ -1,39 +1,46 @@
 <!--index.wxml-->
-<view class="container">
-    <!-- 用户登录测试 -->
-    <view class="userinfo" bindtap="login">
-        <image
-            class="userinfo-avatar"
-            src="{{logged ? userInfo.avatarUrl : './user-unlogin.png'}}"
-            background-size="cover"
-        ></image>
-        <view>
-            <text class="userinfo-nickname">{{logged ? userInfo.nickName : '点击测试登录接口'}}</text>
-            <text class="userinfo-nickname" wx:if="{{logged}}">{{userInfo.lastLoginTime}}</text>
-        </view>
+<view class='ohome'>
+  <view class='banner'>
+    <image src='image/banner.jpg' class='imgbanner'></image>
+    <text class='banner_source'>图片：@Ciao大榴莲！</text>
+  </view>
+  <view class='button_collection'>
+    <view class='search_button'>搜索</view>
+    <view class='daily_recommendation'>每日推荐</view>
+  </view>
+  <view class='taxonomy_browsing'>分类浏览</view>
+  <view class='Taxonomy clearfix'>
+    <view class='classified_picture img_left'>
+      <image src='image/Self-Improvement.png'></image>
+      <text class='classification'>励志</text>
     </view>
-
-    <!-- 上传图片测试 -->
-    <view class="uploader">
-        <view class="uploader-text" bindtap="doUpload">
-            <text>上传图片</text>
-        </view>
-        <view class="uploader-container" wx:if="{{imgUrl}}">
-            <image
-                class="uploader-image"
-                src="{{imgUrl}}"
-                mode="aspectFit"
-                bindtap="previewImg"
-            ></image>
-        </view>
+    <view class='classified_picture img_right'>
+      <image src='image/emotion.jpg'></image>
+       <text class='classification'>情感</text>
     </view>
-
-    
-
-    <!-- 上传图片测试 -->
-    <view class="uploader">
-        <navigator url="../addCgi/addCgi" open-type="navigate" class="uploader-text">
-            <text>快速增加 CGI</text>
-        </navigator>
+     <view class='classified_picture img_left'>
+      <image src='image/home_letter.jpg'></image>
+      <text class='classification'>家书</text>
     </view>
+     <view class='classified_picture img_right'>
+      <image src='image/Whispering.jpg'></image>
+      <text class='classification'>呓语</text>
+    </view>
+     <view class='classified_picture img_left'>
+      <image src='image/lyric.jpg'></image>
+      <text class='classification'>歌词</text>
+    </view>
+     <view class='classified_picture img_right'>
+      <image src='image/Lines.jpg'></image>
+      <text class='classification'>台词</text>
+    </view>
+     <view class='classified_picture img_left'>
+      <image src='image/book.jpg'></image>
+      <text class='classification'>书籍</text>
+    </view>
+     <view class='classified_picture img_right'>
+      <image src='image/poetry.jpg'></image>
+      <text class='classification'>诗词</text>
+    </view>
+  </view>
 </view>

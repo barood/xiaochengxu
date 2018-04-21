@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view>
+  <view class='banner'>
+    <image src='../index/image/banner2.jpg' class='imgbanner'></image>
+    <text class='banner_source'>图片：@Robin_彬仔</text>
+  </view>
+</view> 

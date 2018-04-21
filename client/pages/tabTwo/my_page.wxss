@@ -1,0 +1,55 @@
+/* pages/tabOne/search_page.wxss */
+.banner3{
+  width: 100%;
+  height: 300rpx;
+  margin-bottom: 76rpx;
+}
+.imgbanner{
+  width: 100%;
+  height: 300rpx;
+}
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.userinfo{
+    margin-top: 75rpx;
+    height: 140rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 300ms ease;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.userinfo-avatar {
+    width: 150rpx;
+    height: 150rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    font-size: 40rpx;
+    color: #000;
+}
+.oexit_show{
+  width: 200rpx;
+  height: 100rpx;
+  border-radius: 12rpx;
+  background: linear-gradient(to right,#7E8AB6,#CD94A1);
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  display: block;
+}
+.oexit_hide{
+  display: none;
+}

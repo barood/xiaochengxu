@@ -1,13 +1,39 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/addCgi/addCgi"
+    "pages/addCgi/addCgi",
+    "pages/tabOne/search_page",
+    "pages/tabTwo/my_page"
   ],
   "window":{
     "backgroundColor":"#F6F6F6",
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTitleText": "对句子",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "pages/index/image/find.png",
+        "selectedIconPath": "pages/index/image/find2.png"
+      },
+      {
+        "pagePath": "pages/tabOne/search_page",
+        "text": "搜索",
+        "iconPath": "pages/index/image/search.png",
+        "selectedIconPath": "pages/index/image/search2.png"
+      },
+      {
+        "pagePath": "pages/tabTwo/my_page",
+        "text": "我的",
+        "iconPath": "pages/index/image/my.png",
+        "selectedIconPath": "pages/index/image/my2.png"
+      }
+    ]
   }
 }

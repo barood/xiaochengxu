@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view>
+  <view class='banner'>
+    <image src='../index/image/banner3.jpg' class='imgbanner'></image>
+    <view class="userinfo" bindtap="login">
+      <image
+              class="userinfo-avatar"
+              src="{{logged ? userInfo.avatarUrl : '../index/user-unlogin.png'}}"
+              background-size="cover"
+      ></image>
+      <view>
+        <text class="userinfo-nickname">{{logged ? userInfo.nickName : '点击登录'}}          </text>
+        <text class="userinfo-nickname" wx:if="{{logged}}">{{userInfo.lastLoginTime}}</text>
+      </view>
+      <button class="{{showView?'oexit_show':'oexit_hide'}}">退出</button>
+    </view>
+  </view>
+</view> 
