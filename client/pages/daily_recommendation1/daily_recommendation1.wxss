@@ -1,0 +1,30 @@
+.daily_recommendation_img{
+  width: 100%;
+  height: 422rpx;
+}
+.sentence{
+  padding: 0 60rpx;
+  margin-top: 100rpx;
+  overflow: auto;
+  height: 1%;
+  
+}
+.daily_author{
+  float: right;
+}
+.like{
+  float: right;
+  padding: 0 60rpx;
+  height: 64rpx;
+}
+.likebox>view{
+  float: left;
+  height: 64rpx;
+  line-height: 64rpx;
+}
+.likebox>image{
+  width: 64rpx;
+  height: 64rpx;
+  margin-right: 10rpx;
+
+}

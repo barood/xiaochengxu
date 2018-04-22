@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/addCgi/addCgi",
     "pages/tabOne/search_page",
-    "pages/tabTwo/my_page"
+    "pages/tabTwo/my_page",
+    "pages/daily_recommendation1/daily_recommendation1",
+    "pages/daily_recommendation2/daily_recommendation2",
+    "pages/daily_recommendation3/daily_recommendation3"
   ],
   "window":{
     "backgroundColor":"#F6F6F6",

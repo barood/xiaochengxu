@@ -6,7 +6,9 @@
   </view>
   <view class='button_collection'>
     <view class='search_button'>搜索</view>
-    <view class='daily_recommendation'>每日推荐</view>
+    <view class='daily_recommendation_button'>
+    <navigator url="../daily_recommendation1/daily_recommendation1">每日推荐</navigator>
+    </view>
   </view>
   <view class='taxonomy_browsing'>分类浏览</view>
   <view class='Taxonomy clearfix'>

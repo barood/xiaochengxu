@@ -1,0 +1,14 @@
+<view>
+  <image src='../index/image/daily_recommendation1.jpg' class='daily_recommendation_img'></image>
+  <view class='sentence'>
+    <text class='daily_sentence'>愿你有好运气，如果没有，愿你在不幸中学会慈悲；愿你被很多人爱,如果没有，愿你在寂寞中学会宽容。\n\n</text>
+    <text class='daily_author'>刘瑜《愿你慢慢长大》</text>
+  </view>
+  <view class='like'>
+    <view class='likebox'>
+      <image src='../index/image/beforelike.png'></image>
+      <view>127</view>
+      <image src='../index/image/change.png'></image>
+    </view>
+  </view>
+</view>

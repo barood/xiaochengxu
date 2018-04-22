@@ -30,7 +30,7 @@
    left:0rpx;
    right: 0rpx;
 }
-.search_button,.daily_recommendation{
+.search_button,.daily_recommendation_button{
   width: 324rpx;
   height: 100rpx;
   border-radius: 20rpx;
@@ -43,7 +43,7 @@
 .search_button{
   float: left;
 }
-.daily_recommendation{
+.daily_recommendation_button{
   float: right;
 }
 .taxonomy_browsing{
