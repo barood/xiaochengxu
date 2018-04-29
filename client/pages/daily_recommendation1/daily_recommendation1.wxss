@@ -13,18 +13,24 @@
   float: right;
 }
 .like{
-  float: right;
   padding: 0 60rpx;
   height: 64rpx;
+  position: fixed;
+  bottom: 60rpx;
+  right: 0rpx;
 }
-.likebox>view{
-  float: left;
-  height: 64rpx;
+.likebox view{
   line-height: 64rpx;
+  font-weight: bold; 
+  font-size: 38rpx;
+  color: #797979;
+  display: inline;
 }
-.likebox>image{
+.likebox image{
   width: 64rpx;
   height: 64rpx;
-  margin-right: 10rpx;
-
+  margin: 0rpx 10rpx;
+}
+.likebox{
+  display: flex;
 }

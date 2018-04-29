@@ -5,8 +5,9 @@
     "pages/tabOne/search_page",
     "pages/tabTwo/my_page",
     "pages/daily_recommendation1/daily_recommendation1",
-    "pages/daily_recommendation2/daily_recommendation2",
-    "pages/daily_recommendation3/daily_recommendation3"
+    "pages/goto_publish/goto_publish",
+    "pages/my_collection/my_collection",
+    "pages/my_publication/my_publication"
   ],
   "window":{
     "backgroundColor":"#F6F6F6",

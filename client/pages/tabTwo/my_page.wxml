@@ -12,7 +12,16 @@
         <text class="userinfo-nickname">{{logged ? userInfo.nickName : '点击登录'}}          </text>
         <text class="userinfo-nickname" wx:if="{{logged}}">{{userInfo.lastLoginTime}}</text>
       </view>
-      <button class="{{showView?'oexit_show':'oexit_hide'}}">退出</button>
+      <button class="{{showView?'oexit_hide':'oexit_show'}}">退出</button>
     </view>
+  </view>
+  <view class='want_publish_list'>
+    <navigator url="../goto_publish/goto_publish">我要发表</navigator>
+  </view>
+  <view class='want_publish_list'>
+    <navigator url="../my_collection/my_collection">我收藏的句子</navigator>
+  </view>
+  <view class='want_publish_list'>
+    <navigator url="../my_publication/my_publication">我发表的句子</navigator>
   </view>
 </view> 

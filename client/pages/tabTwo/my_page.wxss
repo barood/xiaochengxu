@@ -41,6 +41,7 @@ page {
     color: #000;
 }
 .oexit_show{
+  display: block;
   width: 200rpx;
   height: 100rpx;
   border-radius: 12rpx;
@@ -48,8 +49,18 @@ page {
   text-align: center;
   line-height: 100rpx;
   color: #fff;
-  display: block;
 }
 .oexit_hide{
   display: none;
+}
+.want_publish_list{
+  width: 700rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  padding-left: 50rpx;
+  margin: 20rpx auto;
+  color: #fff;
+  background: linear-gradient(to right,#88ABFD,#DD9CE3);
+  border-radius: 10rpx;
+  font-weight: bold;
 }

@@ -12,8 +12,15 @@
   color: #000;
   font-size: 26rpx;
   position: absolute;
-   top: 200rpx;
+   top: 260rpx;
    bottom: 0rpx;
    left:480rpx;
    right: 0rpx;
+}
+.search_box{
+  width: 720rpx;
+  height: 80rpx;
+  border-radius: 1000rpx;
+  background-color: #999;
+  margin: 0 auto;
 }

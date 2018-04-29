@@ -1,0 +1,12 @@
+<!--goto_publish.wxml-->
+<view>
+  <textarea class='write_sentence' bindfocus='thisfocus' value='{{write_sentence_value}}' maxlength='300' auto-focus='true'></textarea>
+  <view class='selection_category'>
+    <view class='select_category'>选择句子类别:</view>
+    <picker class='category' bindchange="PickerChange" value="{{casIndex}}" range="{{casArray}}">
+        <text>{{casArray[casIndex]}}</text>
+    </picker>
+  </view>
+  <input value='{{author_source_value}}' class='author_source' bindfocus='thatfocus'></input>
+  <button class='submission'>投稿</button>
+</view> 
