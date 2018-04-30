@@ -7,7 +7,8 @@
     "pages/daily_recommendation1/daily_recommendation1",
     "pages/goto_publish/goto_publish",
     "pages/my_collection/my_collection",
-    "pages/my_publication/my_publication"
+    "pages/my_publication/my_publication",
+    "pages/self_improvement/self_improvement"
   ],
   "window":{
     "backgroundColor":"#F6F6F6",

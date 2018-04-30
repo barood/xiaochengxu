@@ -13,7 +13,7 @@
   <view class='taxonomy_browsing'>分类浏览</view>
   <view class='Taxonomy clearfix'>
     <view class='classified_picture img_left'>
-      <navigator url="../daily_recommendation1/daily_recommendation1">
+      <navigator url="../self_improvement/self_improvement">
         <image src='image/Self-Improvement.png'></image>
         <text class='classification'>励志</text>
       </navigator>
