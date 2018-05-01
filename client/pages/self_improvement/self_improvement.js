@@ -12,15 +12,15 @@ Page({
    */
   onLoad: function (options) {
     wx.request({
-      url: 'https://6jvh6uvq.qcloud.la/index.php/sentencedata/get_sentence_list',
+      url: 'https://6jvh6uvq.qcloud.la/index.php/sentencedata/get_sentence_list', //仅为示例，并非真实的接口地址
       header: {
         'content-type': 'application/json' // 默认值
       },
       success: res=> {
-        console.log(res.data);
+        console.log(res.data)
         this.setData({
-          sentence:res.data
-        });
+          sentence: res.data
+        })
       }
     })
   },
