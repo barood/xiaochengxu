@@ -4,7 +4,21 @@
     <image src='../index/image/banner2.jpg' class='imgbanner'></image>
     <text class='banner_source'>图片：@Robin_彬仔</text>
   </view>
-  <view class='search_box'>
-  
+  <form>
+    <input type='text' class='search_box'></input>
+    <input type='submit' class='serchbutton' value='搜索'></input>
+    <!-- <button class='serchbutton'>搜索</button> -->
+  </form>
+  <view class='sentence_box claerfix' wx:for="{{sentence}}" wx:key="{{index}}">
+    <view class='sentence_button_box claerfix'>
+      <view class='sentence'>{{item.sentence_content}}</view>
+      <button class='collection_button'>添加</button>
+    </view>
+    <view class='suthor_box'>
+      <view class='author'>{{item.sentence_source}}</view>
+    </view>
   </view>
+  <!-- <view class='search_box'>
+    <button class='serchbutton'>搜索</button>
+  </view> -->
 </view> 

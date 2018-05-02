@@ -5,7 +5,9 @@
     <text class='banner_source'>图片：@Ciao大榴莲！</text>
   </view>
   <view class='button_collection'>
-    <view class='search_button'>搜索</view>
+    <view class='search_button'>
+    <navigator url="../booktuijian/booktuijian">其它推荐</navigator>
+    </view>
     <view class='daily_recommendation_button'>
     <navigator url="../daily_recommendation1/daily_recommendation1">每日推荐</navigator>
     </view>
@@ -19,32 +21,46 @@
       </navigator>
     </view>
     <view class='classified_picture img_right'>
-      <image src='image/emotion.jpg'></image>
-       <text class='classification'>情感</text>
+      <navigator url="../emotion/emotion">
+        <image src='image/emotion.jpg'></image>
+        <text class='classification'>情感</text>
+       </navigator>
     </view>
      <view class='classified_picture img_left'>
-      <image src='image/home_letter.jpg'></image>
-      <text class='classification'>家书</text>
+      <navigator url="../home_letter/home_letter">
+        <image src='image/home_letter.jpg'></image>
+        <text class='classification'>家书</text>
+      </navigator>
     </view>
      <view class='classified_picture img_right'>
-      <image src='image/Whispering.jpg'></image>
-      <text class='classification'>呓语</text>
+      <navigator url="../whispering/whispering">
+        <image src='image/Whispering.jpg'></image>
+        <text class='classification'>呓语</text>
+      </navigator>
     </view>
      <view class='classified_picture img_left'>
-      <image src='image/lyric.jpg'></image>
-      <text class='classification'>歌词</text>
+      <navigator url="../lyric/lyric">
+        <image src='image/lyric.jpg'></image>
+        <text class='classification'>歌词</text>
+      </navigator>
     </view>
      <view class='classified_picture img_right'>
-      <image src='image/Lines.jpg'></image>
-      <text class='classification'>台词</text>
+      <navigator url="../lines/lines">
+        <image src='image/Lines.jpg'></image>
+        <text class='classification'>台词</text>
+      </navigator>
     </view>
      <view class='classified_picture img_left'>
-      <image src='image/book.jpg'></image>
-      <text class='classification'>书籍</text>
+      <navigator url="../book/book">
+        <image src='image/book.jpg'></image>
+        <text class='classification'>书籍</text>
+      </navigator>
     </view>
      <view class='classified_picture img_right'>
-      <image src='image/poetry.jpg'></image>
-      <text class='classification'>诗词</text>
+      <navigator url="../poetry/poetry">
+        <image src='image/poetry.jpg'></image>
+        <text class='classification'>诗词</text>
+      </navigator>
     </view>
   </view>
 </view>

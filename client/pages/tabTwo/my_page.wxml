@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view>
   <view class='banner'>
-    <image src='../index/image/banner3.jpg' class='imgbanner'></image>
+    <view class='imgbanner'></view>
     <view class="userinfo" bindtap="login">
       <image
               class="userinfo-avatar"
@@ -16,12 +16,15 @@
     </view>
   </view>
   <view class='want_publish_list'>
+    <image class='myicon' src='../index/image/class.png'></image>
     <navigator url="../goto_publish/goto_publish">我要发表</navigator>
   </view>
   <view class='want_publish_list'>
+  <image class='myicon' src='../index/image/plan.png'></image>
     <navigator url="../my_collection/my_collection">我收藏的句子</navigator>
   </view>
   <view class='want_publish_list'>
+  <image class='myicon' src='../index/image/dictionary.png'></image>
     <navigator url="../my_publication/my_publication">我发表的句子</navigator>
   </view>
 </view> 

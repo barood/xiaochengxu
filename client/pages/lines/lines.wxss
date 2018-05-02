@@ -1,6 +1,28 @@
+/* pages/lines/lines.wxss */
+/* pages/home_letter/home_letter.wxss */
+/* pages/emotion/emotion.wxss */
+.banner{
+  width: 100%;
+}
 .claerfix{
   overflow: auto;
   height: 1%;
+}
+.banner>image{
+  width: 100%;
+  height: 420rpx;
+  display: block;
+}
+.characters{
+  opacity: .8;
+  position: absolute;
+  top: 158rpx;
+  right: 0rpx;
+  bottom: 0rpx;
+  left: 300rpx;
+  color: #fff;
+  font-size: 80rpx;
+  font-weight: bold;
 }
 .sentence_box{
   padding: 20rpx;

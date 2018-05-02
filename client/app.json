@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/addCgi/addCgi",
     "pages/tabOne/search_page",
@@ -8,14 +8,22 @@
     "pages/goto_publish/goto_publish",
     "pages/my_collection/my_collection",
     "pages/my_publication/my_publication",
-    "pages/self_improvement/self_improvement"
+    "pages/self_improvement/self_improvement",
+    "pages/emotion/emotion",
+    "pages/home_letter/home_letter",
+    "pages/whispering/whispering",
+    "pages/lyric/lyric",
+    "pages/lines/lines",
+    "pages/book/book",
+    "pages/poetry/poetry",
+    "pages/booktuijian/booktuijian"
   ],
-  "window":{
-    "backgroundColor":"#F6F6F6",
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "对句子",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "selectedColor": "#000",

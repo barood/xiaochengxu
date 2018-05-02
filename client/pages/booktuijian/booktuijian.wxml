@@ -1,0 +1,22 @@
+<!--pages/booktuijian/booktuijian.wxml-->
+<view class='wenzi'>歌曲推荐：</view>
+<view class='list'>
+  <image class='bookimg'></image>
+  <view class='xiangxitest'>
+    <view class='author'></view>
+  </view>
+</view>
+<view class='wenzi'>电影推荐：</view>
+<view class='list'>
+  <image class='bookimg'></image>
+  <view class='xiangxitest'>
+    <view class='author'></view>
+  </view>
+</view>
+<view class='wenzi'>书籍推荐：</view>
+<view class='list'>
+  <image class='bookimg'></image>
+  <view class='xiangxitest'>
+    <view class='author'></view>
+  </view>
+</view>
