@@ -1,0 +1,27 @@
+<!--pages/grade/grade.wxml-->
+<view class='mydengji'>
+  <view class='chenghao'>称号 ： 见习</view>
+  <view class='jifen'>积分 ： 5</view>
+</view>
+<view class='shuoming'>说明：收藏句子加 1 积分，发表句子加 2 积分</view>
+<view class="table">  
+  <view class="tr bg-w">  
+    <view class="th">称号</view>  
+    <view class="th-2">积分区间</view>  
+  </view>  
+  <block wx:for="{{listData}}" wx:key="{{code}}">  
+    <view class="tr bg-g" wx:if="{{index % 2 != 0}}">  
+      <view class="td-1" selectable="true">{{item.code}}</view>  
+      <view class="td-2" selectable="true" scroll-y="true" >  
+      <text class="th-text"  style="overflow-y:auto;overflow-x:scroll" selectable="true">{{item.text}}</text>  
+      </view>  
+      <!--view class="td">{{item.type}}</view-->  
+    </view>  
+    <view class="tr bg-g2" wx:else>  
+      <view class="td-1" selectable="true">{{item.code}}</view>  
+      <view class="td-2" selectable="true"  scroll-y="true" >  
+      <text class="th-text"  style="overflow-y:auto;overflow-x:scroll" selectable="true">{{item.text}}</text>  
+     </view>  
+    </view>  
+  </block>  
+</view>  

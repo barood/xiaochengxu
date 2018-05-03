@@ -8,5 +8,6 @@
     </picker>
   </view>
   <input value='{{author_source_value}}' class='author_source' bindfocus='thatfocus'></input>
-  <button class='submission'>投稿</button>
+  <button class='submission' bindtap="listenerButton">投稿</button>
+  <toast hidden="{{hiddenToast}}" duration="2000" bindchange="toastHidden" >发表成功</toast>
 </view> 

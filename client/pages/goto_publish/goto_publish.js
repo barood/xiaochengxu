@@ -7,7 +7,8 @@ Page({
     casArray: ['励志', '情感', '家书', '呓语', '歌词', '台词', '书籍', '诗词'],
     casIndex: 0,
     write_sentence_value: "分享你的好句子（最多300字）",
-    author_source_value: "作者/出处"
+    author_source_value: "作者/出处",
+    hiddenToast: true 
   },
   thisfocus:function(){
     this.setData({
@@ -19,14 +20,24 @@ Page({
       author_source_value: ""
     })
   },
-  /**
-   * 生命周期函数--监听页面加载
-   */
   PickerChange: function (e) {
     this.setData({
       casIndex: e.detail.value
     })
   },
+  listenerButton: function () {
+    this.setData({
+      hiddenToast: !this.data.hiddenToast
+    })
+  },
+  toastHidden: function () {
+    this.setData({
+      hiddenToast: true
+    })
+  },
+  /**
+   * 生命周期函数--监听页面加载
+   */
   onLoad: function (options) {
     
   },

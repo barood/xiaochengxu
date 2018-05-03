@@ -16,6 +16,10 @@
     </view>
   </view>
   <view class='want_publish_list'>
+   <image class='myicon' src='../index/image/chenghao.png'></image>
+    <navigator url="../grade/grade">我的等级</navigator>
+  </view>
+  <view class='want_publish_list'>
     <image class='myicon' src='../index/image/class.png'></image>
     <navigator url="../goto_publish/goto_publish">我要发表</navigator>
   </view>

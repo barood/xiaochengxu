@@ -1,29 +1,27 @@
-// pages/lines/lines.js
+// pages/grade/grade.js
 Page({
-
+  
   /**
    * 页面的初始数据
    */
   data: {
-    sentence: []
+    listData: [
+      { "code": "见习", "text": '0-10' },
+      { "code": "正式", "text": '11-30' },
+      { "code": "知名", "text": '31-60' },
+      { "code": "职业", "text": '61-100' },
+      { "code": "著名", "text": '101-150' },
+      { "code": "元老", "text": '151+' }
+    ],
+    inputValue: '', //用于显示输入语句  
+    searchinput: '',
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.request({
-      url: 'https://6jvh6uvq.qcloud.la/index.php/sentencedata/get_sentence_list', //仅为示例，并非真实的接口地址
-      header: {
-        'content-type': 'application/json' // 默认值
-      },
-      success: res => {
-        console.log(res.data)
-        this.setData({
-          sentence: res.data
-        })
-      }
-    })
+  
   },
 
   /**

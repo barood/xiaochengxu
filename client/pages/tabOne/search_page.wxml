@@ -1,24 +1,28 @@
 <!--index.wxml-->
 <view>
-  <view class='banner'>
-    <image src='../index/image/banner2.jpg' class='imgbanner'></image>
-    <text class='banner_source'>图片：@Robin_彬仔</text>
-  </view>
-  <form>
+  <swiper class='banner' indicator-dots='true' autoplay='true' interval='2000' duration='100'>
+    <block wx:for="{{movies}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src='{{item.url}}' class='imgbanner' mode='aspectFill'></image>
+      </swiper-item>
+    <!-- <text class='banner_source'>图片：@Robin_彬仔</text> -->
+    </block>
+  </swiper>
+  <!-- <form method="post" action="index.php/welcome/index">
     <input type='text' class='search_box'></input>
-    <input type='submit' class='serchbutton' value='搜索'></input>
-    <!-- <button class='serchbutton'>搜索</button> -->
-  </form>
-  <view class='sentence_box claerfix' wx:for="{{sentence}}" wx:key="{{index}}">
-    <view class='sentence_button_box claerfix'>
-      <view class='sentence'>{{item.sentence_content}}</view>
-      <button class='collection_button'>添加</button>
-    </view>
-    <view class='suthor_box'>
-      <view class='author'>{{item.sentence_source}}</view>
-    </view>
-  </view>
-  <!-- <view class='search_box'>
+    <input type='submit' class='serchbutton' value='搜索'></input> 
+  </form> -->
+   <input type='text' class='search_box'></input>
+   <navigator url="../search/search">
     <button class='serchbutton'>搜索</button>
-  </view> -->
+   </navigator>
+   <view class='wenzi'>热门搜索</view>
+   <view class='biaoqian'>
+    <view class='biao'>励志</view>
+    <view class='biao'>人生感悟</view>
+    <view class='biao'>经典台词</view>
+    <view class='biao'>诗词</view>
+    <view class='biao'>优美歌词</view>
+    <view class='biao'>名言</view>
+   </view>
 </view> 

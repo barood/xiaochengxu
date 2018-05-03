@@ -1,22 +1,21 @@
 <!--pages/booktuijian/booktuijian.wxml-->
-<view class='wenzi'>歌曲推荐：</view>
-<view class='list'>
-  <image class='bookimg'></image>
-  <view class='xiangxitest'>
-    <view class='author'></view>
-  </view>
-</view>
-<view class='wenzi'>电影推荐：</view>
-<view class='list'>
-  <image class='bookimg'></image>
-  <view class='xiangxitest'>
-    <view class='author'></view>
-  </view>
-</view>
 <view class='wenzi'>书籍推荐：</view>
-<view class='list'>
-  <image class='bookimg'></image>
-  <view class='xiangxitest'>
-    <view class='author'></view>
-  </view>
-</view>
+<scroll-view scroll-x class='list'>
+  <image class='bookimg' src='../index/image/book1.jpg'></image>
+  <image class='bookimg' src='../index/image/book2.jpg'></image>
+  <image class='bookimg' src='../index/image/book3.jpg'></image>
+  <image class='bookimg' src='../index/image/book4.jpg'></image>
+  <image class='bookimg' src='../index/image/book5.jpg'></image>
+</scroll-view>
+<view class='wenzi'>电影推荐：</view>
+<scroll-view scroll-x class='list'>
+  <image class='bookimg' src='../index/image/movie1.jpg'></image>
+  <image class='bookimg' src='../index/image/movie2.jpg'></image>
+  <image class='bookimg' src='../index/image/movie3.jpg'></image>
+  <image class='bookimg' src='../index/image/movie4.jpg'></image>
+</scroll-view>
+<view class='wenzi'>歌曲推荐：</view>
+<scroll-view scroll-x class='list'>
+  <image class='bookimg' src='../index/image/music1.jpg'></image>
+  <image class='bookimg' src='../index/image/music2.jpg'></image>
+</scroll-view>

@@ -4,11 +4,14 @@
   height: 300rpx;
   margin-bottom: 76rpx;
 }
+.banner{
+  margin-bottom: 20rpx;
+}
 .imgbanner{
   width: 100%;
   height: 300rpx;
 }
-.banner_source{
+/* .banner_source{
   color: #000;
   font-size: 26rpx;
   position: absolute;
@@ -16,59 +19,40 @@
    bottom: 0rpx;
    left:480rpx;
    right: 0rpx;
-}
+} */
 .search_box{
-  width: 680rpx;
+  width: 510rpx;
   height: 80rpx;
   border-radius: 1000rpx;
   background-color: #F0F0F0;
-  margin: 0 auto;
+  float: left;
   padding-left: 40rpx;
-  z-index: -1;
+  margin-left: 20rpx;
 }
 .serchbutton{
-  width: 120rpx;
+  width: 140rpx;
   height: 80rpx;
   background-color: #D8D8D8;
   border-radius: 1000rpx;
-  float: right;
   text-align: center;
   line-height: 80rpx;
-  position: absolute;
-  top: 310rpx;
-  right: 0rpx;
-  bottom: 0rpx;
-  left: 620rpx;
-  z-index: 1;
 }
-
-
-
-.claerfix{
-  overflow: auto;
-  height: 1%;
+.wenzi{
+  margin-top: 40rpx;
+  margin-left: 40rpx;
 }
-.sentence_box{
-  padding: 20rpx;
-  margin: 20rpx 0rpx;
-  background-color: #F2F2F2;
-  font-size: 32rpx;
+.biaoqian{
+  width: 100%;
+  margin: 20rpx;
 }
-.sentence{
-  width: 570rpx;
+.wenzi,.biaoqian{
+  color: #626262;
+}
+.biao{
+  padding: 0rpx 20rpx;
+  height: 80rpx;
+  border: 1rpx solid #626262;
   float: left;
-}
-.collection_button{
-  width: 120rpx;
-  height: 60rpx;
-  border-radius: 16rpx;
-  background: linear-gradient(to right,#7E8AB6,#CD94A1);
-  text-align: center;
-  line-height: 60rpx;
-  color: #fff;
-  float: right;
-  font-size: 32rpx;
-}
-.author{
-  float: right;
+  margin: 20rpx;
+  line-height: 80rpx;
 }
