@@ -6,8 +6,6 @@ Page({
   data: {
     casArray: ['励志', '情感', '家书', '呓语', '歌词', '台词', '书籍', '诗词'],
     casIndex: 0,
-    write_sentence_value: "分享你的好句子（最多300字）",
-    author_source_value: "作者/出处",
     hiddenToast: true 
   },
   thisfocus:function(){
@@ -89,5 +87,5 @@ Page({
    */
   onShareAppMessage: function () {
     
-  }
+  },
 })

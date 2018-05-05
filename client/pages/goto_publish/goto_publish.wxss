@@ -45,3 +45,8 @@ page{
   text-align: center;
   margin: 20rpx auto;
 }
+.wenzi{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}

@@ -46,12 +46,12 @@ page {
 }
 .oexit_show{
   display: block;
-  width: 200rpx;
-  height: 100rpx;
+  width: 180rpx;
+  height: 80rpx;
   border-radius: 12rpx;
-  background: linear-gradient(to right,#7E8AB6,#CD94A1);
+  border: 1rpx solid #000;
   text-align: center;
-  line-height: 100rpx;
+  line-height: 80rpx;
   color: #000;
 }
 .oexit_hide{

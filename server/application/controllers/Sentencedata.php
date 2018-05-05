@@ -16,7 +16,7 @@ class Sentencedata extends CI_Controller {
   }
    public function get_sentence_list3()
   {
-    $this->load->model('sentence_model3');
+    $this->load->model('sentence_model');
     $result=$this->sentence_model->get_list3();
     echo json_encode($result);
   }

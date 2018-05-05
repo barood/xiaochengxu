@@ -1,13 +1,21 @@
 <!--goto_publish.wxml-->
 <view>
-  <textarea class='write_sentence' bindfocus='thisfocus' value='{{write_sentence_value}}' maxlength='300' auto-focus='true'></textarea>
+<view class='wenzi'>
+  分享你的好句子（最多300字）:
+</view>
+<form bindsubmit='formSubmit' bindreset='formReset'>
+  <textarea class='write_sentence' bindfocus='thisfocus' maxlength='300' auto-focus='true' name="otext"></textarea>
   <view class='selection_category'>
     <view class='select_category'>选择句子类别:</view>
-    <picker class='category' bindchange="PickerChange" value="{{casIndex}}" range="{{casArray}}">
-        <text>{{casArray[casIndex]}}</text>
+    <picker class='category' bindchange="PickerChange" range="{{casArray}}">
+      <input type='hidden' disabled='true' name="leibie" value='{{casArray[casIndex]}}'></input>
     </picker>
   </view>
-  <input value='{{author_source_value}}' class='author_source' bindfocus='thatfocus'></input>
+  <view class='wenzi'>
+    作者/出处:
+  </view>
+  <input class='author_source' bindfocus='thatfocus' name="author"></input>
   <button class='submission' bindtap="listenerButton">投稿</button>
   <toast hidden="{{hiddenToast}}" duration="2000" bindchange="toastHidden" >发表成功</toast>
+  </form>
 </view> 
